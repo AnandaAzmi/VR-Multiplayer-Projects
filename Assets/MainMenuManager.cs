@@ -25,7 +25,7 @@ public class MainMenuManager : MonoBehaviour
 
             NetworkManager.singleton.networkAddress = ipAddress; // Set IP tujuan
             NetworkManager.singleton.StartClient();
-            SceneManager.LoadScene("HelloCardboard");
+            SceneManager.LoadScene("LearnerScene");
         }
     }
 }
